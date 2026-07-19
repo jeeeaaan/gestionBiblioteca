@@ -11,7 +11,7 @@
     "diagrams": [
       {
         "id": 1,
-        "title": "Nuevo diagrama STRIDE firewatch",
+        "title": "FIREWATC diagrama STRIDE",
         "diagramType": "STRIDE",
         "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -1929,7 +1929,7 @@
             }
           }
         ],
-        "description": "asdasd"
+        "description": "Sistema Central de Reportes de Incendios"
       }
     ],
     "diagramTop": 2,

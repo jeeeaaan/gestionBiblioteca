@@ -2,7 +2,7 @@
   "version": "2.6.2",
   "summary": {
     "title": "firewatch",
-    "owner": "",
+    "owner": "Jean",
     "description": "",
     "id": 0
   },
@@ -10,16 +10,17 @@
     "contributors": [],
     "diagrams": [
       {
-        "id": 0,
-        "title": "New STRIDE diagram firewatch",
+        "id": 1,
+        "title": "Nuevo diagrama STRIDE firewatch",
         "diagramType": "STRIDE",
-        "placeholder": "New STRIDE diagram description",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [],
+        "description": "asdasd"
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "",
     "threatTop": 0
   }

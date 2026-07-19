@@ -19,35 +19,47 @@
         "cells": [
           {
             "position": {
-              "x": 682.25,
-              "y": 320
+              "x": 229.99999999999932,
+              "y": -79.999999999996
             },
             "size": {
-              "width": 128,
-              "height": 60
+              "width": 1410,
+              "height": 400
+            },
+            "attrs": {
+              "label": {
+                "text": "RED PÚBLICA / INTERNET\n"
+              }
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "5f779cef-48e1-40ee-973b-590322e113c6",
             "zIndex": -1,
+            "id": "5f779cef-48e1-40ee-973b-590322e113c6",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
+              "name": "RED PÚBLICA / INTERNET\n",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [],
-              "containedElements": []
+              "containedElements": [
+                "c50e0fa1-38ac-4dda-aaa8-b7224d44acfa",
+                "2604b266-ed26-4d40-94db-177df25977bd",
+                "849624da-ba07-4791-942e-dea9c882f00f",
+                "fa03b654-4c7c-4615-b205-7c04c4197811",
+                "7eb4fbb7-8230-41ba-a888-7009d843a3ed",
+                "34726d00-b974-421c-92f3-620bc0dcc49e"
+              ]
             }
           },
           {
             "position": {
-              "x": 910,
-              "y": 370
+              "x": 812.5,
+              "y": 385
             },
             "size": {
-              "width": 128,
-              "height": 60
+              "width": 620,
+              "height": 310
             },
             "attrs": {
               "label": {
@@ -56,8 +68,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "f1512319-c64c-4fa9-917b-6cd746ba3229",
             "zIndex": -1,
+            "id": "f1512319-c64c-4fa9-917b-6cd746ba3229",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "RED PRIVADA / SERVIDORES\n",
@@ -65,7 +77,11 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [],
-              "containedElements": []
+              "containedElements": [
+                "53e28976-6301-440d-ab2b-d552d77f9991",
+                "518b0994-5b9d-45e1-b886-83503f3718f8",
+                "742e4e3b-7490-42bb-9ff0-ad58805d91ef"
+              ]
             }
           },
           {
@@ -86,6 +102,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -169,7 +186,6 @@
               ]
             },
             "id": "c50e0fa1-38ac-4dda-aaa8-b7224d44acfa",
-            "zIndex": 1,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -203,6 +219,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -286,7 +303,6 @@
               ]
             },
             "id": "2604b266-ed26-4d40-94db-177df25977bd",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -320,6 +336,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -403,7 +420,6 @@
               ]
             },
             "id": "849624da-ba07-4791-942e-dea9c882f00f",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -434,6 +450,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -517,7 +534,6 @@
               ]
             },
             "id": "fa03b654-4c7c-4615-b205-7c04c4197811",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",
@@ -532,14 +548,17 @@
           },
           {
             "position": {
-              "x": 690,
-              "y": 450
+              "x": 510,
+              "y": 540
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 160,
+              "height": 80
             },
             "attrs": {
+              "text": {
+                "text": "Frontera de confianza"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -548,6 +567,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -631,10 +651,9 @@
               ]
             },
             "id": "5b3982d0-2acf-49b5-83b2-5164567ef1b7",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
-              "name": "Actor",
+              "name": "Frontera de confianza",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -646,14 +665,17 @@
           },
           {
             "position": {
-              "x": 970,
-              "y": 440
+              "x": 890,
+              "y": 580
             },
             "size": {
               "width": 120,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "D1\nBase de datos\nSQL"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -665,6 +687,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -748,10 +771,9 @@
               ]
             },
             "id": "53e28976-6301-440d-ab2b-d552d77f9991",
-            "zIndex": 6,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "D1\nBase de datos\nSQL",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -767,14 +789,17 @@
           },
           {
             "position": {
-              "x": 930,
-              "y": 300
+              "x": 890,
+              "y": 470
             },
             "size": {
               "width": 120,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "D2\nAlmacenamiento de Archivos"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -786,6 +811,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -869,10 +895,9 @@
               ]
             },
             "id": "518b0994-5b9d-45e1-b886-83503f3718f8",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "D2\nAlmacenamiento de Archivos",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -888,14 +913,17 @@
           },
           {
             "position": {
-              "x": 1212,
-              "y": 510
+              "x": 1182,
+              "y": 580
             },
             "size": {
               "width": 120,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "D3\nDatos históricos y statistics"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -907,6 +935,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -990,10 +1019,9 @@
               ]
             },
             "id": "742e4e3b-7490-42bb-9ff0-ad58805d91ef",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "D3\nDatos históricos y statistics",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1025,6 +1053,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1108,7 +1137,6 @@
               ]
             },
             "id": "7eb4fbb7-8230-41ba-a888-7009d843a3ed",
-            "zIndex": 9,
             "data": {
               "type": "tm.Process",
               "name": "Process",
@@ -1142,6 +1170,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1225,7 +1254,6 @@
               ]
             },
             "id": "34726d00-b974-421c-92f3-620bc0dcc49e",
-            "zIndex": 10,
             "data": {
               "type": "tm.Actor",
               "name": "Actor",

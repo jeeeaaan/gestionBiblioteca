@@ -140,44 +140,14 @@
             "labels": [
               ""
             ],
-            "id": "9a45226c-ef0a-4f0b-9274-afc3cceb8831",
+            "id": "cb8d1b35-49a0-46a8-8d79-7312180c38eb",
             "source": {
               "x": 510,
-              "y": 620
+              "y": 622
             },
             "target": {
-              "x": 740,
-              "y": 620
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+              "x": 610,
+              "y": 722
             }
           },
           {
@@ -1435,6 +1405,10 @@
               {
                 "x": 875,
                 "y": 10
+              },
+              {
+                "x": 900,
+                "y": 180
               }
             ]
           },

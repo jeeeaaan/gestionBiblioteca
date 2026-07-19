@@ -123,68 +123,34 @@
             }
           },
           {
-            "shape": "edge",
-            "attrs": {
-              "line": {
-                "targetMarker": {
-                  "name": "block",
-                  "width": 12,
-                  "height": 8
-                }
-              }
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
             },
-            "id": "5246d0d5-0175-408f-aa79-d2c7d336f2a7",
-            "zIndex": 0,
+            "labels": [
+              ""
+            ],
+            "id": "9a45226c-ef0a-4f0b-9274-afc3cceb8831",
             "source": {
-              "cell": "5b3982d0-2acf-49b5-83b2-5164567ef1b7",
-              "port": "42bb63e7-f68d-404d-ae48-e85d771a3c88"
+              "x": 510,
+              "y": 620
             },
             "target": {
               "x": 740,
               "y": 620
             },
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
             "tools": {
               "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
@@ -816,7 +782,7 @@
             },
             "attrs": {
               "text": {
-                "text": "D1\nBase de datos\nSQL"
+                "text": "D1\nBase de datos\nSQL / NoSQL"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -915,7 +881,7 @@
             "id": "53e28976-6301-440d-ab2b-d552d77f9991",
             "data": {
               "type": "tm.Store",
-              "name": "D1\nBase de datos\nSQL",
+              "name": "D1\nBase de datos\nSQL / NoSQL",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,

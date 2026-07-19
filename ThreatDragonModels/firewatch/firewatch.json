@@ -60,8 +60,8 @@
           },
           {
             "position": {
-              "x": 740,
-              "y": 430
+              "x": 750,
+              "y": 420
             },
             "size": {
               "width": 620,
@@ -69,7 +69,7 @@
             },
             "attrs": {
               "label": {
-                "text": "RED PRIVADA / SERVIDORES\n"
+                "text": "                                RED PRIVADA / SERVIDORES\n"
               }
             },
             "visible": true,
@@ -78,7 +78,7 @@
             "id": "f1512319-c64c-4fa9-917b-6cd746ba3229",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "RED PRIVADA / SERVIDORES\n",
+              "name": "                                RED PRIVADA / SERVIDORES\n",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -773,7 +773,7 @@
           },
           {
             "position": {
-              "x": 800,
+              "x": 815,
               "y": 600
             },
             "size": {
@@ -1024,7 +1024,7 @@
           },
           {
             "position": {
-              "x": 1092,
+              "x": 1142,
               "y": 600
             },
             "size": {
@@ -1382,53 +1382,6 @@
               "providesAuthentication": false,
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "1c03fb0e-b944-42cb-800a-33281abae179",
-            "source": {
-              "cell": "53e28976-6301-440d-ab2b-d552d77f9991",
-              "port": "2220e8df-d85c-497d-84d6-8f94f57909db"
-            },
-            "target": {
-              "cell": "742e4e3b-7490-42bb-9ff0-ad58805d91ef",
-              "port": "78b7fdfa-1f32-48bc-94bd-515b69168b1f"
-            },
-            "vertices": []
           },
           {
             "shape": "flow",
@@ -1845,6 +1798,10 @@
             },
             "vertices": [
               {
+                "x": 1370,
+                "y": 390
+              },
+              {
                 "x": 1340,
                 "y": 230
               }
@@ -1901,6 +1858,53 @@
                 "y": -10
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Información histórica",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Información histórica"
+            ],
+            "id": "cf855da7-0c87-4090-b6a7-c3b05835cd06",
+            "source": {
+              "cell": "53e28976-6301-440d-ab2b-d552d77f9991",
+              "port": "2220e8df-d85c-497d-84d6-8f94f57909db"
+            },
+            "target": {
+              "cell": "742e4e3b-7490-42bb-9ff0-ad58805d91ef",
+              "port": "78b7fdfa-1f32-48bc-94bd-515b69168b1f"
+            },
+            "vertices": []
           },
           {
             "position": {

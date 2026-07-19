@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -19.999999999999545,
-              "y": -130
+              "x": -20,
+              "y": -140
             },
             "size": {
               "width": 2110,
@@ -28,7 +28,7 @@
             },
             "attrs": {
               "label": {
-                "text": "RED PÚBLICA / INTERNET\n"
+                "text": "                                                                                                                                                                        RED PÚBLICA / INTERNET\n"
               }
             },
             "visible": true,
@@ -37,7 +37,7 @@
             "id": "5f779cef-48e1-40ee-973b-590322e113c6",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "RED PÚBLICA / INTERNET\n",
+              "name": "                                                                                                                                                                        RED PÚBLICA / INTERNET\n",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -95,6 +95,34 @@
             }
           },
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "808b9355-5d1e-4c2f-ad3a-20af0a9fedae",
+            "source": {
+              "x": 280,
+              "y": 350
+            },
+            "target": {
+              "cell": "5b3982d0-2acf-49b5-83b2-5164567ef1b7",
+              "port": "0a61165f-b172-4b48-927e-a0083a0f7b66"
+            }
+          },
+          {
             "shape": "edge",
             "attrs": {
               "line": {
@@ -105,15 +133,15 @@
                 }
               }
             },
-            "id": "e3b1ddd6-acc1-4f76-8b64-36f5ab8c626d",
+            "id": "5246d0d5-0175-408f-aa79-d2c7d336f2a7",
             "zIndex": 0,
             "source": {
               "cell": "5b3982d0-2acf-49b5-83b2-5164567ef1b7",
               "port": "42bb63e7-f68d-404d-ae48-e85d771a3c88"
             },
             "target": {
-              "x": 730,
-              "y": 600
+              "x": 740,
+              "y": 620
             },
             "data": {
               "type": "tm.Flow",
@@ -132,6 +160,21 @@
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
@@ -647,8 +690,8 @@
           },
           {
             "position": {
-              "x": 360,
-              "y": 560
+              "x": 350,
+              "y": 580
             },
             "size": {
               "width": 160,
@@ -1148,7 +1191,7 @@
             },
             "attrs": {
               "text": {
-                "text": "P3\n"
+                "text": "P3\nGeneración de \nreportes"
               },
               "body": {
                 "stroke": "#333333",
@@ -1244,7 +1287,7 @@
             "id": "7eb4fbb7-8230-41ba-a888-7009d843a3ed",
             "data": {
               "type": "tm.Process",
-              "name": "P3\n",
+              "name": "P3\nGeneración de \nreportes",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1727,7 +1770,12 @@
               "cell": "2604b266-ed26-4d40-94db-177df25977bd",
               "port": "72e4095c-44ae-4a1e-aede-71ce75b72f33"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 330,
+                "y": 95
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1904,8 +1952,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "f54608b4-b6eb-4dbe-967c-d99522d195d5",
             "zIndex": 11,
+            "id": "f54608b4-b6eb-4dbe-967c-d99522d195d5",
             "data": {
               "type": "tm.Text",
               "name": "Consulta de estadísticas",
@@ -1928,8 +1976,8 @@
             },
             "visible": true,
             "shape": "td-text-block",
-            "id": "021dd042-3742-4ab2-bd2b-6c0a72bbf144",
             "zIndex": 12,
+            "id": "021dd042-3742-4ab2-bd2b-6c0a72bbf144",
             "data": {
               "type": "tm.Text",
               "name": "Gráficas y reportes\n",
